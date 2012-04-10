@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+<title>EVIDEO - Login Page</title>
+<!-- css-->
+<link rel="shortcut icon" href="img/favicon.ico" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<!--js-->
+ <script type="text/javascript" src="js/jquery-1.5.1.min.js"></script> 
+<script>
+ function startup(){
+                document.f.j_username.focus();
+                if (window.location.search.substring(1) == 'error') {
+                    document.getElementById('error').style.display = 'block';
+                }
+            }
+
+  function showAdmin()
+	{
+		$('#adminLogin').show();
+		$('#userLogin').hide();
+		$('#anchorUser').show();
+		$('#anchorAdmin').hide();
+	}
+function showUser()
+	{
+		$('#adminLogin').hide();
+		$('#userLogin').show();
+		$('#anchorUser').hide();
+		$('#anchorAdmin').show();
+	}
+$(document).ready(function(){ $('#adminLogin').hide();$('#userLogin').show();$('#anchorUser').hide();$('#anchorAdmin').show();});
+				
+function loginAuthentication()
+				{
+					var xmlhttp;
+					var muser=document.getElementById("user").value;
+		 			var mpass=document.getElementById("pass").value;
+					var str= "user="+muser+"&pass="+mpass;
+					//alert(str);
+					$.getJSON('http://evideo.iitj.ac.in:8080/get-login-data.php?'+str+'&jsoncallback=?', function(r) {
+ 					console.log("Inside getJSON");
+					//alert(r);
+					r=JSON.stringify(r);
+					var temp =JSON.parse(r); 
+                      			console.log(temp[0].response);
+					response=temp[0].response;
+						
+					
+					if(response)
+					{
+						var url="http://evideo.iitj.ac.in/engage/ui/index.html?user="+muser;
+						$(location).attr('href',url);
+					}			
+				
+					});
+				}
+				
+</script>
+</head>
+    <body onload='startup()'>
+       <div id="wrapper">
+           <div id="headergraphic">
+               <!--<a href="http://www.opencastproject.org"><img border="0" width="128" vspace="5" hspace="20" height="30" alt="Opencast" src="images/opencast_logo.gif"></a>-->
+           </div>
+	       <div id="bottombanner">
+               <div id="col1-2">
+                   <div id="col1b">&nbsp</div>
+                   <div id="col2b">
+                       <h2>Welcome to EVIDEO</h2>
+                       <div id="error" style="display:none;background-color:#FFDDDC;">
+                            <div style="color:red;text-align:center;">Your login attempt was not successful, try again.</div>
+                        </div>
+                       <div id=adminLogin><h3>Login with Username and Password</h3>
+                       <form name='f' action='/j_spring_security_check' method='POST'>
+                           <table>
+                               <tr><td>Admin ID:</td><td><input type='text' name='j_username' value=''></td></tr>
+                               <tr><td>Password:</td><td><input type='password' name='j_password'/></td></tr>
+                         
+                               <tr><td><input type='checkbox' name='_spring_security_remember_me'/></td><td>Remember me on this computer.</td></tr>
+                               <tr><td><input name="submit" type="submit" value="Login"/></td><td><input name="reset" type="reset"/></td></tr>
+                           </table>
+                       </form></div>
+			            
+			<div id=userLogin><h3>User Login</h3>
+                       <form name='userf'>
+                           <table>
+                               <tr><td>Username: </td><td><input type='text' name='user' id='user' /></td></tr>
+			       <tr><td>Password: </td><td><input type='password' name='pass' id='pass' /></td></tr>
+                               <tr><td><input type='checkbox' name='_spring_security_remember_me'></td><td>Remember me on this computer.</td></tr>
+                               <tr><td><input name="submit" type="button" value="Login" onclick="loginAuthentication()" /></td><td><input name="reset" type="reset" /></td></tr>
+                           </table>
+                       </form></div>
+			<h3><a href="http://evideo.iitj.ac.in/engage/ui/index.html">Go to Media Library</a></h3>         
+			</div> 
+			<div id="col3b"><a id='anchorAdmin' href='javascript:showAdmin()'>Login as Admin</a><a id='anchorUser' href="javascript:showUser()">Login as User</div>   
+                   </div>
+               </div>
+           </div>
+       </body>
+</html>

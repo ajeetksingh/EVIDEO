@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main" if="deployTo">
+  <copy todir="/opt/matterhorn/felix/matterhorn/" file="/opt/matterhorn/1.1.0/modules/matterhorn-runtime-info-ui/target/matterhorn-runtime-info-ui-1.1.0.jar" failonerror="false"/>
+</target>
+</project>

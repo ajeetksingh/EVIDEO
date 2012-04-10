@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/10311/MH/tags/1.1.0/modules/matterhorn-runtime-info-ui/src/main/resources/ui
+END
+style.css
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/10310/MH/tags/1.1.0/modules/matterhorn-runtime-info-ui/src/main/resources/ui/style.css
+END
+login.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/10310/MH/tags/1.1.0/modules/matterhorn-runtime-info-ui/src/main/resources/ui/login.html
+END
+welcome.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/10311/MH/tags/1.1.0/modules/matterhorn-runtime-info-ui/src/main/resources/ui/welcome.html
+END

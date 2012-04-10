@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/ui.xml,OSGI-INF/info.xml
+Export-Package: org.opencastproject.runtimeinfo;uses:="org.osgi.framew
+ ork,org.apache.commons.lang,javax.servlet,javax.ws.rs,org.opencastpro
+ ject.util.doc,org.opencastproject.util,org.opencastproject.security.a
+ pi,org.osgi.service.component,org.slf4j"
+Bundle-ClassPath: .,json-simple-1.1.jar
+Built-By: root
+Bundle-Category: opencastproject
+Tool: Bnd-0.0.357
+Bundle-Name: matterhorn-runtime-info-ui
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: The Opencast Project
+Build-Jdk: 1.6.0_20
+Bundle-Version: 1.1.0
+Bnd-LastModified: 1316670204174
+Bundle-ManifestVersion: 2
+Bundle-Description: The Opencast Project's Matterhorn software is a me
+ dia capture, processing, and distribution system
+Bundle-License: http://www.osedu.org/licenses/ECL-2.0/ecl2.txt
+Embed-Dependency: json-simple
+Import-Package: javax.servlet,javax.ws.rs;version="1.1",org.apache.com
+ mons.lang;version="2.4",org.opencastproject.kernel.http,org.opencastp
+ roject.security.api;version="1.1",org.opencastproject.util;version="1
+ .1",org.opencastproject.util.doc;version="1.1",org.osgi.framework;ver
+ sion="1.5",org.osgi.service.component;version="1.1",org.slf4j;version
+ ="1.5"
+Bundle-SymbolicName: matterhorn-runtime-info-ui
+Bundle-DocURL: http://opencastproject.org/
+
