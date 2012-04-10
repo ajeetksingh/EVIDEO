@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ffmpeg_libs/sdl
+END
+config.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ffmpeg_libs/sdl/config.txt
+END
+linux-compile
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ffmpeg_libs/sdl/linux-compile
+END
+sdl-config
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ffmpeg_libs/sdl/sdl-config
+END
+mac-compile
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ffmpeg_libs/sdl/mac-compile
+END
+win32-compile
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ffmpeg_libs/sdl/win32-compile
+END
+SDL_main-1.2.10.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ffmpeg_libs/sdl/SDL_main-1.2.10.h
+END
+SDL_main-1.2.14.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ffmpeg_libs/sdl/SDL_main-1.2.14.h
+END
+ports-compile
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ffmpeg_libs/sdl/ports-compile
+END

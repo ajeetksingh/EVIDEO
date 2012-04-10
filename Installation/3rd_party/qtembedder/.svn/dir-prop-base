@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 145
+qt_sbtl_embedder-*.tar.gz
+qt_sbtl_embedder-*.tgz
+qt_sbtl_embedder-*.tar.bz2
+qt_sbtl_embedder-*.tbz
+qt_sbtl_embedder-*.tb2
+qt_sbtl_embedder-*.zip
+
+END

@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 85
+rand48-*.tar.gz
+rand48-*.tgz
+rand48-*.tar.bz2
+rand48-*.tbz
+rand48-*.tb2
+rand48-*.zip
+
+END

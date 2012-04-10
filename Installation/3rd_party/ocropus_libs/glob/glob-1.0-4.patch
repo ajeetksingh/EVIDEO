@@ -1,0 +1,177 @@
+diff -urN -x '*.exe' -x '*.dll' -x '*.o' -x '*.a' -x '*.bak' -x '~' -x .hg -x '*.orig' glob-1.0-orig/Makefile.in glob-1.0/Makefile.in
+--- glob-1.0-orig/Makefile.in	2009-08-29 18:32:40 +0200
++++ glob-1.0/Makefile.in	2009-08-29 18:32:01 +0200
+@@ -40,12 +40,20 @@
+ RANLIB = @RANLIB@
+ 
+ .PHONY: all
+-all: libglob.a
++all: libglob.a glob.dll
+ 
+ libglob.a: glob.o fnmatch.o $(ALLOCA)
+ 	$(AR) $(ARFLAGS) $@ glob.o fnmatch.o $(ALLOCA)
+ 	$(RANLIB) $@
+ 
++glob.dll: libglob.a
++	$(CC) -shared $(LDFLAGS) -o $@ \
++	$(srcdir)/libglob.def \
++	-Wl,--out-implib=libglob.dll.a \
++	-Wl,--output-def=$@.exp \
++	-Wl,--whole-archive $< \
++	-Wl,--no-whole-archive
++
+ # For some reason, Unix make wants the dependencies on the source files.
+ # Otherwise it refuses to use an implicit rule!
+ # And, get this: it doesn't work to use $(srcdir)/foo.c!!
+diff -urN -x '*.exe' -x '*.dll' -x '*.o' -x '*.a' -x '*.bak' -x '~' -x .hg -x '*.orig' glob-1.0-orig/glob.c glob-1.0/glob.c
+--- glob-1.0-orig/glob.c	2009-08-29 18:32:40 +0200
++++ glob-1.0/glob.c	2009-11-02 20:30:13 +0100
+@@ -506,7 +506,11 @@
+     }
+ 
+   /* Find the filename.  */
++#ifdef WINDOWS32
++  filename = strrchr (pattern, '\\');
++#else  
+   filename = strrchr (pattern, '/');
++#endif  /* WINDOWS32 */  
+ #if defined __MSDOS__ || defined WINDOWS32
+   /* The case of "d:pattern".  Since `:' is not allowed in
+      file names, we can safely assume that wherever it
+@@ -543,7 +547,11 @@
+   else if (filename == pattern)
+     {
+       /* "/pattern".  */
++#ifdef WINDOWS32
++      dirname = "\\";
++#else
+       dirname = "/";
++#endif
+       dirlen = 1;
+       ++filename;
+     }
+@@ -588,7 +596,7 @@
+ #if defined __MSDOS__ || defined WINDOWS32
+           && dirname[dirlen - 1] != ':'
+ 	  && (dirlen < 3 || dirname[dirlen - 2] != ':'
+-	      || dirname[dirlen - 1] != '/')
++	      || dirname[dirlen - 1] != '\\')
+ #endif
+ 	  && dirlen > 1)
+ 	/* "pattern/".  Expand "pattern", appending slashes.  */
+@@ -612,7 +620,13 @@
+ #ifndef VMS
+   if ((flags & (GLOB_TILDE|GLOB_TILDE_CHECK)) && dirname[0] == '~')
+     {
+-      if (dirname[1] == '\0' || dirname[1] == '/')
++      if (dirname[1] == '\0' || 
++#ifdef WINDOWS32      
++          dirname[1] == '\\'
++#else
++          dirname[1] == '/'
++#endif
++	 )
+ 	{
+ 	  /* Look up home directory.  */
+ #ifdef VMS
+@@ -968,13 +982,24 @@
+ 		    }
+ 
+ #ifdef HAVE_MEMPCPY
++ #ifdef WINDOWS32
+ 		  mempcpy (mempcpy (mempcpy (pglob->gl_pathv[pglob->gl_pathc],
+ 					     dir, dir_len),
++				    "\\", 1),
++			   filename, filename_len);
++ #else
++ 		  mempcpy (mempcpy (mempcpy (pglob->gl_pathv[pglob->gl_pathc],
++					     dir, dir_len),
+ 				    "/", 1),
+ 			   filename, filename_len);
++ #endif
+ #else
+ 		  memcpy (pglob->gl_pathv[pglob->gl_pathc], dir, dir_len);
++#ifdef WINDOWS32
++		  pglob->gl_pathv[pglob->gl_pathc][dir_len] = '\\';
++#else
+ 		  pglob->gl_pathv[pglob->gl_pathc][dir_len] = '/';
++#endif
+ 		  memcpy (&pglob->gl_pathv[pglob->gl_pathc][dir_len + 1],
+ 			  filename, filename_len);
+ #endif
+@@ -1039,7 +1064,11 @@
+ 		globfree (pglob);
+ 		return GLOB_NOSPACE;
+ 	      }
++#ifdef WINDOWS32
++	    strcpy (&new[len - 2], "\\");
++#else
+ 	    strcpy (&new[len - 2], "/");
++#endif
+ 	    pglob->gl_pathv[i] = new;
+ 	  }
+     }
+@@ -1109,20 +1138,20 @@
+   register size_t i;
+   size_t dirlen = strlen (dirname);
+ #if defined __MSDOS__ || defined WINDOWS32
+-  int sep_char = '/';
++  int sep_char = '\\';
+ # define DIRSEP_CHAR sep_char
+ #else
+ # define DIRSEP_CHAR '/'
+ #endif
+ 
+-  if (dirlen == 1 && dirname[0] == '/')
++  if (dirlen == 1 && dirname[0] == sep_char)
+     /* DIRNAME is just "/", so normal prepending would get us "//foo".
+        We want "/foo" instead, so don't prepend any chars from DIRNAME.  */
+     dirlen = 0;
+ #if defined __MSDOS__ || defined WINDOWS32
+   else if (dirlen > 1)
+     {
+-      if (dirname[dirlen - 1] == '/' && dirname[dirlen - 2] == ':')
++      if (dirname[dirlen - 1] == '\\' && dirname[dirlen - 2] == ':')
+ 	/* DIRNAME is "d:/".  Don't prepend the slash from DIRNAME.  */
+ 	--dirlen;
+       else if (dirname[dirlen - 1] == ':')
+@@ -1252,12 +1281,22 @@
+ 	  char *fullname = (char *) __alloca (dirlen + 1 + patlen + 1);
+ 
+ # ifdef HAVE_MEMPCPY
++ #ifdef WINDOWS32
++	  mempcpy (mempcpy (mempcpy (fullname, directory, dirlen),
++			    "\\", 1),
++		   pattern, patlen + 1);
++ #else
+ 	  mempcpy (mempcpy (mempcpy (fullname, directory, dirlen),
+ 			    "/", 1),
+ 		   pattern, patlen + 1);
++ #endif
+ # else
+ 	  memcpy (fullname, directory, dirlen);
++#ifdef WINDOWS32
++	  fullname[dirlen] = '\\';
++#else
+ 	  fullname[dirlen] = '/';
++#endif
+ 	  memcpy (&fullname[dirlen + 1], pattern, patlen + 1);
+ # endif
+ 	  if (((flags & GLOB_ALTDIRFUNC)
+@@ -1303,7 +1342,7 @@
+ 	    {
+ 	      int fnm_flags = ((!(flags & GLOB_PERIOD) ? FNM_PERIOD : 0)
+ 			       | ((flags & GLOB_NOESCAPE) ? FNM_NOESCAPE : 0)
+-#if defined _AMIGA || defined VMS
++#if defined _AMIGA || defined VMS || defined __MINGW32__
+ 				   | FNM_CASEFOLD
+ #endif
+ 				   );
+diff -urN -x '*.exe' -x '*.dll' -x '*.o' -x '*.a' -x '*.bak' -x '~' -x .hg -x '*.orig' glob-1.0-orig/libglob.def glob-1.0/libglob.def
+--- glob-1.0-orig/libglob.def	1970-01-01 01:00:00 +0100
++++ glob-1.0/libglob.def	2009-08-29 18:32:58 +0200
+@@ -0,0 +1,4 @@
++EXPORTS
++    fnmatch
++    glob
++    globfree

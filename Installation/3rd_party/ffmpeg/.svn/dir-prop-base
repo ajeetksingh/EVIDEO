@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 85
+ffmpeg-*.tar.gz
+ffmpeg-*.tgz
+ffmpeg-*.tar.bz2
+ffmpeg-*.tbz
+ffmpeg-*.tb2
+ffmpeg-*.zip
+
+END

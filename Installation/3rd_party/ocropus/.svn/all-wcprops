@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus
+END
+ocropus.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/ocropus.h
+END
+ports-compile.notnow
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/ports-compile.notnow
+END
+tesseract.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/tesseract.cc
+END
+config.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/config.txt
+END
+ocrocmd-1.0-unix.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/ocrocmd-1.0-unix.c
+END
+SDL_main.patch
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/SDL_main.patch
+END
+winsock2.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/winsock2.h
+END
+SConstruct.mingw
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/SConstruct.mingw
+END
+SConstruct.org
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/SConstruct.org
+END
+ocrocmd-1.0-win.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/ocrocmd-1.0-win.c
+END
+sysutil.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/sysutil.cc
+END
+sysutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/sysutil.h
+END
+SConstruct.linux
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/SConstruct.linux
+END
+ocr-commands.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/ocr-commands.cc
+END
+SConstruct.mac
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/SConstruct.mac
+END
+xml-entities.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/xml-entities.cc
+END
+ocr-utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/ocr-utils.h
+END
+ocrofst-io.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/ocrofst-io.cc
+END
+linux-compile.notnow
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/linux-compile.notnow
+END
+mac-compile.notnow
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/mac-compile.notnow
+END
+components.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/components.cc
+END
+win32-compile.notnow
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/win32-compile.notnow
+END
+winsock2.h.org
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/winsock2.h.org
+END
+SConstruct.ports
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/SConstruct.ports
+END
+glinerec.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/glinerec.h
+END
+ocropus.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus/ocropus.cc
+END

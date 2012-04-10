@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 79
+dlfcn-*.tar.gz
+dlfcn-*.tgz
+dlfcn-*.tar.bz2
+dlfcn-*.tbz
+dlfcn-*.tb2
+dlfcn-*.zip
+
+END

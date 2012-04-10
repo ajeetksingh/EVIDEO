@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 91
+ocropus-*.tar.gz
+ocropus-*.tgz
+ocropus-*.tar.bz2
+ocropus-*.tbz
+ocropus-*.tb2
+ocropus-*.zip
+
+END

@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 103
+SDL_image-*.tar.gz
+SDL_image-*.tgz
+SDL_image-*.tar.bz2
+SDL_image-*.tbz
+SDL_image-*.tb2
+SDL_image-*.zip
+
+END

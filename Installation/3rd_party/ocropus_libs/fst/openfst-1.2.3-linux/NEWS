@@ -1,0 +1,58 @@
+OpenFst - Release 1.2
+
+   * Added lookahead matching and filtering for faster composition
+   * Added EditFst for mutation of o.w. immutable FSTs
+   * Added script sub-namespace defining type FstClass - a non-templated Fst<Arc> 
+     to hold the arc template type internally. This and FST operations on
+     it allow easier I/O and scripting at the cost of some runtime
+     dispatching.
+   * Added per-arc-iterator control of Fst caching.
+   * Added PowerWeight and Power Arc.
+   * Added fstsymbols shell-level command
+   * Added total weight removal option to pushing
+   * Changed methods for symbol table mutation: use MutableInputSymbols()/MutableOutputSymbols().
+   * Numerous efficiency improvements esp in composition, replace, and caching
+   * Fixed numerous bugs including:
+     - improper types of some approximation deltas
+     - sub-optimal hashing functions
+     - issues in internal reuse of shortest distance
+     - hashing bug in FloatWeight       
+     - bug in shortest path queue 
+     - symbol table checksumming issues
+     - various C++ standards issues
+     - Visit() behavior when visitation aborted
+     - Decode() hash performance bug
+   * Added extensions directories including:
+     - finite-state archive (FAR) utilities
+     - compact fsts
+     - lookahead fsts
+     - pushdown transducers
+
+OpenFst - Release 1.1
+
+   * Added compat.h to src/include/fst to fix missing defines
+   * Fixed bug in acyclic minimization that led to non-minimal 
+     (but equiv) results
+   * Fixed missing FST typedef in various matchers in matcher.h
+     so that they can be cascaded
+   * Opened file streams binary where appropriate
+
+OpenFst - Release 1.0
+
+   Additions to beta version:
+
+   * Matcher class added for matching labels at FST states. Includes
+     special matchers for sigma (any), rho ('rest'), and phi ('fail')
+     labels. (see matcher.h)
+   * Composition generalized with arbitrary filters, matchers, and state tables.
+     Sequence and matching composition filters provided. (see compose.h, 
+     compose-filter.h, matcher.h, state-table.h)
+   * Unique n-best (see shortest-path.h)
+   * Pruning in determinization and epsilon removal (see determinize.h, 
+     rmepsilon.h)
+   * New Fst classes: 
+      * Compact Fsts for space-efficient representation (see compact-fst.h)
+   * New Weight classes: 
+      * MinMax
+      * Lexicographic
+   * Miscellaneous bug fixes

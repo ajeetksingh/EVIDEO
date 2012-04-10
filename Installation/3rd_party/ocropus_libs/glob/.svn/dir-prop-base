@@ -1,0 +1,12 @@
+K 10
+svn:ignore
+V 86
+glob-*.tar.gz
+glob-*.tgz
+glob-*.tar.bz2
+glob-*.tbz
+glob-*.tb2
+glob-*.zip
+glob-*.patch
+
+END

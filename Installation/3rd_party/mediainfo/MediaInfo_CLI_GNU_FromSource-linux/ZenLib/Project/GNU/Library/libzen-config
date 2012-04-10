@@ -1,0 +1,18 @@
+if test "$1" = "CXXFLAGS"; then
+echo  -DUNICODE
+fi
+if test "$1" = "LIBS"; then
+echo -L/opt/matterhorn/1.1.0/docs/scripts/3rd_party/mediainfo/MediaInfo_CLI_GNU_FromSource-linux/ZenLib/Project/GNU/Library -lzen -lpthread 
+fi
+if test "$1" = "LIBS_Static"; then
+echo /opt/matterhorn/1.1.0/docs/scripts/3rd_party/mediainfo/MediaInfo_CLI_GNU_FromSource-linux/ZenLib/Project/GNU/Library/.libs/libzen.a -lpthread 
+fi
+if test "$1" = "Unicode"; then
+echo yes
+fi
+if test "$1" = "WstringMissing"; then
+echo no
+fi
+if test "$1" = "Exists"; then
+echo yes
+fi

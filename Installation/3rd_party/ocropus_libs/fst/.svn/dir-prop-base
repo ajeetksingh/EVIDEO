@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 91
+openfst-*.tar.gz
+openfst-*.tgz
+openfst-*.tar.bz2
+openfst-*.tbz
+openfst-*.tb2
+openfst-*.zip
+
+END

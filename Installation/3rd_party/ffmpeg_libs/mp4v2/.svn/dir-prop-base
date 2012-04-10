@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 79
+mp4v2-*.tar.gz
+mp4v2-*.tgz
+mp4v2-*.tar.bz2
+mp4v2-*.tbz
+mp4v2-*.tb2
+mp4v2-*.zip
+
+END

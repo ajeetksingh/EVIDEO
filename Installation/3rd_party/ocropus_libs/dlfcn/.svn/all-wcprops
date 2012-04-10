@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/dlfcn
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/dlfcn/configure
+END
+config.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/dlfcn/config.txt
+END
+dlfcn.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/dlfcn/dlfcn.c
+END
+win32-compile
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/dlfcn/win32-compile
+END
+dlfcn.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/dlfcn/dlfcn.h
+END

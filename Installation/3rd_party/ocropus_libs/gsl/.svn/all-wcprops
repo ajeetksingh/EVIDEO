@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/gsl
+END
+config.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/gsl/config.txt
+END
+win32-compile
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/gsl/win32-compile
+END
+ports-compile
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/gsl/ports-compile
+END

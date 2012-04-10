@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/base_libs/png
+END
+config.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/base_libs/png/config.txt
+END
+linux-compile
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/base_libs/png/linux-compile
+END
+mac-compile
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/base_libs/png/mac-compile
+END
+win32-compile
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/base_libs/png/win32-compile
+END
+ports-compile
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/base_libs/png/ports-compile
+END

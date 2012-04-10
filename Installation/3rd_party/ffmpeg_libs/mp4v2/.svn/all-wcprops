@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ffmpeg_libs/mp4v2
+END
+config.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ffmpeg_libs/mp4v2/config.txt
+END
+linux-compile
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ffmpeg_libs/mp4v2/linux-compile
+END
+mp4v2r355.patch
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ffmpeg_libs/mp4v2/mp4v2r355.patch
+END
+mac-compile
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ffmpeg_libs/mp4v2/mac-compile
+END
+win32-compile
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ffmpeg_libs/mp4v2/win32-compile
+END
+ports-compile
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ffmpeg_libs/mp4v2/ports-compile
+END

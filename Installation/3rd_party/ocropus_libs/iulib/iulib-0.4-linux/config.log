@@ -1,0 +1,178 @@
+file /opt/matterhorn/1.1.0/docs/scripts/3rd_party/ocropus_libs/iulib/iulib-0.4-linux/SConstruct,line 46:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for png_byte in C library png... 
+scons: Configure: ".sconf_temp/conftest_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_0.c <-
+  |  |
+  |  |
+  |  |#include "png.h"
+  |  |
+  |  |int
+  |  |main() {
+  |  |  png_byte;
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_0.o -c -I/usr/local/include .sconf_temp/conftest_0.c
+  |
+scons: Configure: ".sconf_temp/conftest_0" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_0 .sconf_temp/conftest_0.o -L/usr/local/lib -ltiff -ljpeg -lz -lpng
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for jpeg_std_error() in C library jpeg... 
+scons: Configure: ".sconf_temp/conftest_1.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_1.c <-
+  |  |
+  |  |
+  |  |#include "jconfig.h"
+  |  |
+  |  |int
+  |  |main() {
+  |  |  jpeg_std_error();
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_1.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_1.o -c -I/usr/local/include .sconf_temp/conftest_1.c
+  |
+scons: Configure: ".sconf_temp/conftest_1" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_1 .sconf_temp/conftest_1.o -L/usr/local/lib -ltiff -ljpeg -lz -lpng -ljpeg
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for inflate in C library z... 
+scons: Configure: ".sconf_temp/conftest_2.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_2.c <-
+  |  |
+  |  |
+  |  |#include "zlib.h"
+  |  |
+  |  |int
+  |  |main() {
+  |  |  inflate;
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_2.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_2.o -c -I/usr/local/include .sconf_temp/conftest_2.c
+  |
+scons: Configure: ".sconf_temp/conftest_2" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_2 .sconf_temp/conftest_2.o -L/usr/local/lib -ltiff -ljpeg -lz -lpng -ljpeg -lz
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for TIFFOpen() in C library tiff... 
+scons: Configure: ".sconf_temp/conftest_3.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_3.c <-
+  |  |
+  |  |
+  |  |#include "tiff.h"
+  |  |
+  |  |int
+  |  |main() {
+  |  |  TIFFOpen();
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_3.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_3.o -c -I/usr/local/include .sconf_temp/conftest_3.c
+  |
+scons: Configure: ".sconf_temp/conftest_3" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_3 .sconf_temp/conftest_3.o -L/usr/local/lib -ltiff -ljpeg -lz -lpng -ljpeg -lz -ltiff
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C++ header file ffmpeg/avcodec.h... 
+scons: Configure: ".sconf_temp/conftest_4.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_4.cpp <-
+  |  |
+  |  |#include "ffmpeg/avcodec.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_4.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_4.o -c -g -O3 -Wall -D__warn_unused_result__=__far__ -I/usr/local/include .sconf_temp/conftest_4.cpp
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C++ header file ffmpeg/avformat.h... 
+scons: Configure: ".sconf_temp/conftest_5.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_5.cpp <-
+  |  |
+  |  |#include "ffmpeg/avformat.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_5.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_5.o -c -g -O3 -Wall -D__warn_unused_result__=__far__ -I/usr/local/include .sconf_temp/conftest_5.cpp
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file linux/videodev2.h... 
+scons: Configure: ".sconf_temp/conftest_6.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_6.c <-
+  |  |
+  |  |#include <linux/videodev2.h>
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_6.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_6.o -c -I/usr/local/include .sconf_temp/conftest_6.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C++ header file SDL/SDL_gfxPrimitives.h... 
+scons: Configure: ".sconf_temp/conftest_7.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_7.cpp <-
+  |  |
+  |  |#include "SDL/SDL_gfxPrimitives.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_7.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_7.o -c -g -O3 -Wall -D__warn_unused_result__=__far__ -I/usr/local/include .sconf_temp/conftest_7.cpp
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C++ header file SDL/SDL.h... 
+scons: Configure: ".sconf_temp/conftest_8.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_8.cpp <-
+  |  |
+  |  |#include "SDL/SDL.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_8.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_8.o -c -g -O3 -Wall -D__warn_unused_result__=__far__ -I/usr/local/include .sconf_temp/conftest_8.cpp
+  |
+scons: Configure: (cached) yes
+
+

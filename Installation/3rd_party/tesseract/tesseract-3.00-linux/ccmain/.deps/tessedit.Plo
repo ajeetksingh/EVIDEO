@@ -1,0 +1,541 @@
+tessedit.lo: tessedit.cpp ../ccutil/mfcpch.h tfacep.h \
+ ../ccutil/hosthplb.h ../ccutil/host.h ../ccutil/platform.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/limits.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/syslimits.h \
+ /usr/include/limits.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/stdio_lim.h ../ccutil/tessclas.h ../cutil/tessarray.h \
+ /usr/include/stdio.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdarg.h \
+ /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h tstruct.h \
+ ../ccstruct/werd.h ../ccutil/varable.h ../ccutil/clst.h \
+ ../ccutil/serialis.h /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/xlocale.h /usr/include/sys/types.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/string.h ../ccutil/memry.h \
+ ../ccutil/errcode.h ../ccutil/fileerr.h ../ccutil/lsterr.h \
+ ../ccutil/strngs.h ../ccutil/bits16.h ../ccutil/strngs.h \
+ ../ccstruct/blckerr.h ../ccutil/errcode.h ../ccstruct/stepblob.h \
+ ../ccstruct/coutln.h ../ccstruct/crakedge.h ../ccstruct/points.h \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h ../ccutil/elst.h ../ccstruct/ipoints.h \
+ ../ccstruct/mod128.h ../ccstruct/rect.h ../ccutil/ndminx.h \
+ ../ccutil/tprintf.h ../ccutil/varable.h ../viewer/scrollview.h \
+ ../ccstruct/polyblob.h ../ccstruct/poutline.h ../ccstruct/polyvert.h \
+ ../ccutil/elst2.h ../ccstruct/normalis.h ../ccstruct/ocrrow.h \
+ ../ccstruct/quspline.h ../ccstruct/quadratc.h ../ccutil/serialis.h \
+ ../ccutil/memry.h ../ccstruct/werd.h ../ccstruct/ratngs.h \
+ /usr/include/assert.h ../ccutil/clst.h ../ccutil/genericvector.h \
+ ../ccutil/callback.h ../ccutil/helpers.h ../ccutil/notdll.h \
+ ../ccutil/unichar.h /usr/include/memory.h ../ccutil/unicharset.h \
+ ../ccutil/unichar.h ../ccutil/unicharmap.h ../dict/choices.h \
+ ../cutil/oldlist.h ../cutil/cutil.h ../cutil/general.h ../ccutil/host.h \
+ ../cutil/cutil_class.h ../ccutil/ccutil.h ../ccutil/ambigs.h \
+ ../ccutil/elst.h ../ccutil/tprintf.h ../ccutil/unicharset.h \
+ ../ccutil/genericvector.h ../ccutil/tessdatamanager.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/bits/setjmp.h /usr/include/semaphore.h \
+ /usr/include/bits/semaphore.h ../cutil/const.h ../ccutil/callback.h \
+ ../wordrec/tface.h ../cutil/cutil.h ../dict/permute.h \
+ ../dict/choicearr.h ../dict/choices.h ../classify/adaptmatch.h \
+ ../classify/fxdefs.h ../cutil/general.h ../dict/matchdefs.h \
+ ../classify/adaptive.h ../classify/intproto.h ../classify/protos.h \
+ ../cutil/bitvec.h ../ccutil/unicity_table.h ../cutil/callcpp.h \
+ ../classify/ocrfeatures.h ../cutil/funcdefs.h ../classify/blobclass.h \
+ ../dict/stopper.h ../dict/states.h ../wordrec/associate.h \
+ ../wordrec/matrix.h ../dict/states.h ../ccstruct/blobs.h \
+ ../ccstruct/vecfuncs.h ../wordrec/split.h ../wordrec/seam.h \
+ ../wordrec/chop.h ../cutil/oldheap.h expandblob.h ../ccutil/tordvars.h \
+ ../wordrec/metrics.h ../wordrec/measure.h ../wordrec/bestfirst.h \
+ ../wordrec/associate.h ../wordrec/closed.h ../wordrec/badwords.h \
+ ../cutil/structures.h ../cutil/oldlist.h ../cutil/freelist.h \
+ ../cutil/danerror.h /usr/include/setjmp.h ../ccutil/stderr.h \
+ ../ccutil/basedir.h ../ccutil/notdll.h tessvars.h ../image/img.h \
+ ../textord/tordmain.h ../ccstruct/ocrblock.h ../ccstruct/pdblock.h \
+ ../ccstruct/polyblk.h ../ccstruct/hpddef.h ../ccstruct/blobbox.h \
+ ../ccstruct/ocrblock.h ../ccstruct/statistc.h control.h \
+ ../ccstruct/statistc.h ../ccutil/ocrshell.h ../ccutil/ocrclass.h \
+ ../ccstruct/pageres.h ../ccstruct/ratngs.h ../ccstruct/rejctmap.h \
+ charsample.h ../image/imgs.h ../image/img.h reject.h ../ccutil/mainblk.h \
+ ../ccutil/nwmain.h pgedit.h ../ccstruct/ocrrow.h ../ccstruct/rect.h \
+ pagewalk.h ../ccstruct/polyblob.h ../ccstruct/stepblob.h \
+ tesseractclass.h ../wordrec/wordrec.h ../classify/classify.h \
+ ../ccstruct/ccstruct.h ../image/image.h ../classify/classify.h \
+ ../dict/dict.h ../ccutil/ambigs.h ../dict/dawg.h ../dict/stopper.h \
+ ../dict/trie.h ../classify/intmatcher.h ../classify/cutoffs.h \
+ ../wordrec/badwords.h ../ccutil/ocrclass.h docqual.h tessedit.h \
+ ../dict/permdawg.h ../dict/permute.h ../classify/intmatcher.h \
+ ../cutil/efio.h ../cutil/danerror.h ../cutil/globals.h ../config_auto.h \
+ /usr/local/include/tiffio.h /usr/local/include/tiff.h \
+ /usr/local/include/tiffconf.h /usr/local/include/tiffvers.h
+
+../ccutil/mfcpch.h:
+
+tfacep.h:
+
+../ccutil/hosthplb.h:
+
+../ccutil/host.h:
+
+../ccutil/platform.h:
+
+/usr/lib/gcc/i686-redhat-linux/4.5.1/include/limits.h:
+
+/usr/lib/gcc/i686-redhat-linux/4.5.1/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-32.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/bits/stdio_lim.h:
+
+../ccutil/tessclas.h:
+
+../cutil/tessarray.h:
+
+/usr/include/stdio.h:
+
+/usr/lib/gcc/i686-redhat-linux/4.5.1/include/stddef.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdarg.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+tstruct.h:
+
+../ccstruct/werd.h:
+
+../ccutil/varable.h:
+
+../ccutil/clst.h:
+
+../ccutil/serialis.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/string.h:
+
+../ccutil/memry.h:
+
+../ccutil/errcode.h:
+
+../ccutil/fileerr.h:
+
+../ccutil/lsterr.h:
+
+../ccutil/strngs.h:
+
+../ccutil/bits16.h:
+
+../ccutil/strngs.h:
+
+../ccstruct/blckerr.h:
+
+../ccutil/errcode.h:
+
+../ccstruct/stepblob.h:
+
+../ccstruct/coutln.h:
+
+../ccstruct/crakedge.h:
+
+../ccstruct/points.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+../ccutil/elst.h:
+
+../ccstruct/ipoints.h:
+
+../ccstruct/mod128.h:
+
+../ccstruct/rect.h:
+
+../ccutil/ndminx.h:
+
+../ccutil/tprintf.h:
+
+../ccutil/varable.h:
+
+../viewer/scrollview.h:
+
+../ccstruct/polyblob.h:
+
+../ccstruct/poutline.h:
+
+../ccstruct/polyvert.h:
+
+../ccutil/elst2.h:
+
+../ccstruct/normalis.h:
+
+../ccstruct/ocrrow.h:
+
+../ccstruct/quspline.h:
+
+../ccstruct/quadratc.h:
+
+../ccutil/serialis.h:
+
+../ccutil/memry.h:
+
+../ccstruct/werd.h:
+
+../ccstruct/ratngs.h:
+
+/usr/include/assert.h:
+
+../ccutil/clst.h:
+
+../ccutil/genericvector.h:
+
+../ccutil/callback.h:
+
+../ccutil/helpers.h:
+
+../ccutil/notdll.h:
+
+../ccutil/unichar.h:
+
+/usr/include/memory.h:
+
+../ccutil/unicharset.h:
+
+../ccutil/unichar.h:
+
+../ccutil/unicharmap.h:
+
+../dict/choices.h:
+
+../cutil/oldlist.h:
+
+../cutil/cutil.h:
+
+../cutil/general.h:
+
+../ccutil/host.h:
+
+../cutil/cutil_class.h:
+
+../ccutil/ccutil.h:
+
+../ccutil/ambigs.h:
+
+../ccutil/elst.h:
+
+../ccutil/tprintf.h:
+
+../ccutil/unicharset.h:
+
+../ccutil/genericvector.h:
+
+../ccutil/tessdatamanager.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/semaphore.h:
+
+/usr/include/bits/semaphore.h:
+
+../cutil/const.h:
+
+../ccutil/callback.h:
+
+../wordrec/tface.h:
+
+../cutil/cutil.h:
+
+../dict/permute.h:
+
+../dict/choicearr.h:
+
+../dict/choices.h:
+
+../classify/adaptmatch.h:
+
+../classify/fxdefs.h:
+
+../cutil/general.h:
+
+../dict/matchdefs.h:
+
+../classify/adaptive.h:
+
+../classify/intproto.h:
+
+../classify/protos.h:
+
+../cutil/bitvec.h:
+
+../ccutil/unicity_table.h:
+
+../cutil/callcpp.h:
+
+../classify/ocrfeatures.h:
+
+../cutil/funcdefs.h:
+
+../classify/blobclass.h:
+
+../dict/stopper.h:
+
+../dict/states.h:
+
+../wordrec/associate.h:
+
+../wordrec/matrix.h:
+
+../dict/states.h:
+
+../ccstruct/blobs.h:
+
+../ccstruct/vecfuncs.h:
+
+../wordrec/split.h:
+
+../wordrec/seam.h:
+
+../wordrec/chop.h:
+
+../cutil/oldheap.h:
+
+expandblob.h:
+
+../ccutil/tordvars.h:
+
+../wordrec/metrics.h:
+
+../wordrec/measure.h:
+
+../wordrec/bestfirst.h:
+
+../wordrec/associate.h:
+
+../wordrec/closed.h:
+
+../wordrec/badwords.h:
+
+../cutil/structures.h:
+
+../cutil/oldlist.h:
+
+../cutil/freelist.h:
+
+../cutil/danerror.h:
+
+/usr/include/setjmp.h:
+
+../ccutil/stderr.h:
+
+../ccutil/basedir.h:
+
+../ccutil/notdll.h:
+
+tessvars.h:
+
+../image/img.h:
+
+../textord/tordmain.h:
+
+../ccstruct/ocrblock.h:
+
+../ccstruct/pdblock.h:
+
+../ccstruct/polyblk.h:
+
+../ccstruct/hpddef.h:
+
+../ccstruct/blobbox.h:
+
+../ccstruct/ocrblock.h:
+
+../ccstruct/statistc.h:
+
+control.h:
+
+../ccstruct/statistc.h:
+
+../ccutil/ocrshell.h:
+
+../ccutil/ocrclass.h:
+
+../ccstruct/pageres.h:
+
+../ccstruct/ratngs.h:
+
+../ccstruct/rejctmap.h:
+
+charsample.h:
+
+../image/imgs.h:
+
+../image/img.h:
+
+reject.h:
+
+../ccutil/mainblk.h:
+
+../ccutil/nwmain.h:
+
+pgedit.h:
+
+../ccstruct/ocrrow.h:
+
+../ccstruct/rect.h:
+
+pagewalk.h:
+
+../ccstruct/polyblob.h:
+
+../ccstruct/stepblob.h:
+
+tesseractclass.h:
+
+../wordrec/wordrec.h:
+
+../classify/classify.h:
+
+../ccstruct/ccstruct.h:
+
+../image/image.h:
+
+../classify/classify.h:
+
+../dict/dict.h:
+
+../ccutil/ambigs.h:
+
+../dict/dawg.h:
+
+../dict/stopper.h:
+
+../dict/trie.h:
+
+../classify/intmatcher.h:
+
+../classify/cutoffs.h:
+
+../wordrec/badwords.h:
+
+../ccutil/ocrclass.h:
+
+docqual.h:
+
+tessedit.h:
+
+../dict/permdawg.h:
+
+../dict/permute.h:
+
+../classify/intmatcher.h:
+
+../cutil/efio.h:
+
+../cutil/danerror.h:
+
+../cutil/globals.h:
+
+../config_auto.h:
+
+/usr/local/include/tiffio.h:
+
+/usr/local/include/tiff.h:
+
+/usr/local/include/tiffconf.h:
+
+/usr/local/include/tiffvers.h:

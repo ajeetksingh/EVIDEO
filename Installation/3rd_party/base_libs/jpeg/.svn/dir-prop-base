@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 85
+jpegsrc*.tar.gz
+jpegsrc*.tgz
+jpegsrc*.tar.bz2
+jpegsrc*.tbz
+jpegsrc*.tb2
+jpegsrc*.zip
+
+END

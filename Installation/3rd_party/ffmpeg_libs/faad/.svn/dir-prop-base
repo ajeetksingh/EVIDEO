@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 79
+faad2-*.tar.gz
+faad2-*.tgz
+faad2-*.tar.bz2
+faad2-*.tbz
+faad2-*.tb2
+faad2-*.zip
+
+END

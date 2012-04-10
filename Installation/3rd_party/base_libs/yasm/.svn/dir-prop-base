@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 73
+yasm-*.tar.gz
+yasm-*.tgz
+yasm-*.tar.bz2
+yasm-*.tbz
+yasm-*.tb2
+yasm-*.zip
+
+END

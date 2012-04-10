@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 73
+zlib-*.tar.gz
+zlib-*.tgz
+zlib-*.tar.bz2
+zlib-*.tbz
+zlib-*.tb2
+zlib-*.zip
+
+END

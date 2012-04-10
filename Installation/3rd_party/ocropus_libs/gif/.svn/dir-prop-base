@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 85
+giflib-*.tar.gz
+giflib-*.tgz
+giflib-*.tar.bz2
+giflib-*.tbz
+giflib-*.tb2
+giflib-*.zip
+
+END

@@ -1,0 +1,15 @@
+if test "$1" = "CXXFLAGS"; then
+echo  -DUNICODE -DUNICODE
+fi
+if test "$1" = "LIBS"; then
+echo  -L/opt/matterhorn/1.1.0/docs/scripts/3rd_party/mediainfo/MediaInfo_CLI_GNU_FromSource-linux/MediaInfoLib/Project/GNU/Library -lmediainfo  -lz -L/opt/matterhorn/1.1.0/docs/scripts/3rd_party/mediainfo/MediaInfo_CLI_GNU_FromSource-linux/ZenLib/Project/GNU/Library -lzen -lpthread
+fi
+if test "$1" = "LIBS_Static"; then
+echo  /opt/matterhorn/1.1.0/docs/scripts/3rd_party/mediainfo/MediaInfo_CLI_GNU_FromSource-linux/MediaInfoLib/Project/GNU/Library/.libs/libmediainfo.a  -lz -L/opt/matterhorn/1.1.0/docs/scripts/3rd_party/mediainfo/MediaInfo_CLI_GNU_FromSource-linux/ZenLib/Project/GNU/Library -lzen -lpthread
+fi
+if test "$1" = "Unicode"; then
+echo yes
+fi
+if test "$1" = "Exists"; then
+echo yes
+fi

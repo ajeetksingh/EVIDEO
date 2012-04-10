@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 127
+MediaInfo_CLI_*.tar.gz
+MediaInfo_CLI_*.tgz
+MediaInfo_CLI_*.tar.bz2
+MediaInfo_CLI_*.tbz
+MediaInfo_CLI_*.tb2
+MediaInfo_CLI_*.zip
+
+END

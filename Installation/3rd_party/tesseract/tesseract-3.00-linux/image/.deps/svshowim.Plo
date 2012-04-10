@@ -1,0 +1,147 @@
+svshowim.lo: svshowim.cpp ../config_auto.h \
+ /usr/local/include/liblept/allheaders.h \
+ /usr/local/include/liblept/alltypes.h \
+ /usr/local/include/liblept/environ.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h /usr/include/bits/wchar.h \
+ /usr/local/include/liblept/array.h \
+ /usr/local/include/liblept/arrayaccess.h \
+ /usr/local/include/liblept/bbuffer.h /usr/local/include/liblept/bmf.h \
+ /usr/local/include/liblept/ccbord.h /usr/local/include/liblept/dewarp.h \
+ /usr/local/include/liblept/gplot.h /usr/local/include/liblept/heap.h \
+ /usr/local/include/liblept/jbclass.h /usr/local/include/liblept/list.h \
+ /usr/local/include/liblept/morph.h /usr/local/include/liblept/pix.h \
+ /usr/local/include/liblept/ptra.h /usr/local/include/liblept/queue.h \
+ /usr/local/include/liblept/regutils.h /usr/include/stdio.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/local/include/liblept/stack.h \
+ /usr/local/include/liblept/watershed.h \
+ /usr/local/include/liblept/imageio.h \
+ /usr/local/include/liblept/leptprotos.h svshowim.h ../ccutil/host.h \
+ ../ccutil/platform.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/limits.h \
+ /usr/lib/gcc/i686-redhat-linux/4.5.1/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h img.h \
+ ../ccutil/memry.h ../ccutil/host.h ../viewer/scrollview.h
+
+../config_auto.h:
+
+/usr/local/include/liblept/allheaders.h:
+
+/usr/local/include/liblept/alltypes.h:
+
+/usr/local/include/liblept/environ.h:
+
+/usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-32.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/local/include/liblept/array.h:
+
+/usr/local/include/liblept/arrayaccess.h:
+
+/usr/local/include/liblept/bbuffer.h:
+
+/usr/local/include/liblept/bmf.h:
+
+/usr/local/include/liblept/ccbord.h:
+
+/usr/local/include/liblept/dewarp.h:
+
+/usr/local/include/liblept/gplot.h:
+
+/usr/local/include/liblept/heap.h:
+
+/usr/local/include/liblept/jbclass.h:
+
+/usr/local/include/liblept/list.h:
+
+/usr/local/include/liblept/morph.h:
+
+/usr/local/include/liblept/pix.h:
+
+/usr/local/include/liblept/ptra.h:
+
+/usr/local/include/liblept/queue.h:
+
+/usr/local/include/liblept/regutils.h:
+
+/usr/include/stdio.h:
+
+/usr/lib/gcc/i686-redhat-linux/4.5.1/include/stddef.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/i686-redhat-linux/4.5.1/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/local/include/liblept/stack.h:
+
+/usr/local/include/liblept/watershed.h:
+
+/usr/local/include/liblept/imageio.h:
+
+/usr/local/include/liblept/leptprotos.h:
+
+svshowim.h:
+
+../ccutil/host.h:
+
+../ccutil/platform.h:
+
+/usr/lib/gcc/i686-redhat-linux/4.5.1/include/limits.h:
+
+/usr/lib/gcc/i686-redhat-linux/4.5.1/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+img.h:
+
+../ccutil/memry.h:
+
+../ccutil/host.h:
+
+../viewer/scrollview.h:

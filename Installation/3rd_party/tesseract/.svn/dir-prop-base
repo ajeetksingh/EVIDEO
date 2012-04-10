@@ -1,0 +1,14 @@
+K 10
+svn:ignore
+V 156
+tesseract-*.tar.gz
+tesseract-*.tgz
+tesseract-*.tar.bz2
+tesseract-*.tbz
+tesseract-*.tb2
+tesseract-*.zip
+*.traineddata.gz
+*.traineddata.bz2
+*.traineddata.zip
+
+END

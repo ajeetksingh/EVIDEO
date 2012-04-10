@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 91
+SDL_gfx-*.tar.gz
+SDL_gfx-*.tgz
+SDL_gfx-*.tar.bz2
+SDL_gfx-*.tbz
+SDL_gfx-*.tb2
+SDL_gfx-*.zip
+
+END

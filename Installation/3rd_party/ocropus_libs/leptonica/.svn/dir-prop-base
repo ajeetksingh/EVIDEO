@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 103
+leptonlib-*.tar.gz
+leptonlib-*.tgz
+leptonlib-*.tar.bz2
+leptonlib-*.tbz
+leptonlib-*.tb2
+leptonlib-*.zip
+
+END

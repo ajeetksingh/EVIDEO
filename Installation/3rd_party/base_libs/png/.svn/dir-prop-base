@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 85
+libpng-*.tar.gz
+libpng-*.tgz
+libpng-*.tar.bz2
+libpng-*.tbz
+libpng-*.tb2
+libpng-*.zip
+
+END

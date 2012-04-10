@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}
+includedir=/opt/matterhorn/1.1.0/docs/scripts/3rd_party/ffmpeg/ffmpeg-0.6-linux
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 52.72.2
+Requires: libavutil = 50.15.1
+Conflicts:
+Libs: ${libdir}/libavcodec.a  -lxvidcore -lx264 -lpthread -lmp3lame -lfaad -lfaac -lvorbis -ltheora  -lz -lbz2 -lm -lfaac -lfaad -lmp3lame -lm -ltheoraenc -ltheoradec -logg -lvorbisenc -lvorbis -logg -lx264 -lm -lxvidcore -lasound -lasound -lasound
+Cflags: -I${includedir}

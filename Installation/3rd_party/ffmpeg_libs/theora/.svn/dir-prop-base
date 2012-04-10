@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 103
+libtheora-*.tar.gz
+libtheora-*.tgz
+libtheora-*.tar.bz2
+libtheora-*.tbz
+libtheora-*.tb2
+libtheora-*.zip
+
+END

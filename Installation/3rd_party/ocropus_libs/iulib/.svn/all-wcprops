@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/iulib
+END
+narray.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/iulib/narray.h
+END
+config.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/iulib/config.txt
+END
+test-pbmpng.cc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/iulib/test-pbmpng.cc
+END
+linux-compile
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/iulib/linux-compile
+END
+mac-compile
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/iulib/mac-compile
+END
+SConstruct.mingw
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/iulib/SConstruct.mingw
+END
+win32-compile
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/iulib/win32-compile
+END
+ports-compile
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/iulib/ports-compile
+END
+SConstruct.org
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/iulib/SConstruct.org
+END
+io_jpeg.cc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/iulib/io_jpeg.cc
+END
+SConstruct.linux
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/iulib/SConstruct.linux
+END
+SConstruct.mac
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/iulib/SConstruct.mac
+END
+compat.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/iulib/compat.h
+END
+quicksort.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/iulib/quicksort.h
+END
+SConstruct.ports
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/iulib/SConstruct.ports
+END

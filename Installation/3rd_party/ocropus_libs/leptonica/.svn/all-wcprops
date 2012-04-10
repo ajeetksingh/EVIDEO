@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/leptonica
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/leptonica/Makefile.in
+END
+config.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/leptonica/config.txt
+END
+linux-compile
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/leptonica/linux-compile
+END
+mac-compile
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/leptonica/mac-compile
+END
+win32-compile
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/leptonica/win32-compile
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/leptonica/Makefile.am
+END
+ports-compile
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ocropus_libs/leptonica/ports-compile
+END

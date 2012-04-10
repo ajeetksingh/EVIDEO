@@ -1,0 +1,9 @@
+Running the Installation Script
+When it comes to the 3rd party installation
+	copy 3rd party directory from the Installation Directory and paste to the '/opt/matterhorn/1.1.0/docs/scripts'
+	now press c to clean all the build directories
+	if the machine is 64 bit
+				make changes to the /opt/matterhorn/1.1.0/docs/scripts/3rd_party/ocropus_libs/iulib/SConstruct.linux at line 55
+					env.Append(LIBPATH="/usr/local/lib");
+							to
+					env.Append(LIBPATH="/usr/local/lib64");

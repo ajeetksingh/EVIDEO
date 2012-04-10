@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 103
+libvorbis-*.tar.gz
+libvorbis-*.tgz
+libvorbis-*.tar.bz2
+libvorbis-*.tbz
+libvorbis-*.tb2
+libvorbis-*.zip
+
+END

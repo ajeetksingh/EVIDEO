@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 79
+iulib-*.tar.gz
+iulib-*.tgz
+iulib-*.tar.bz2
+iulib-*.tbz
+iulib-*.tb2
+iulib-*.zip
+
+END

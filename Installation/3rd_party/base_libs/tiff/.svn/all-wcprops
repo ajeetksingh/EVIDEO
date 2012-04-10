@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/base_libs/tiff
+END
+config.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/base_libs/tiff/config.txt
+END
+linux-compile
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/base_libs/tiff/linux-compile
+END
+mac-compile
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/base_libs/tiff/mac-compile
+END
+win32-compile
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/base_libs/tiff/win32-compile
+END
+ports-compile
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/base_libs/tiff/ports-compile
+END

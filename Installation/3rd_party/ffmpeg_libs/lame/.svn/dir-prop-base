@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 73
+lame-*.tar.gz
+lame-*.tgz
+lame-*.tar.bz2
+lame-*.tbz
+lame-*.tb2
+lame-*.zip
+
+END

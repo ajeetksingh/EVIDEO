@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 67
+gsl-*.tar.gz
+gsl-*.tgz
+gsl-*.tar.bz2
+gsl-*.tbz
+gsl-*.tb2
+gsl-*.zip
+
+END

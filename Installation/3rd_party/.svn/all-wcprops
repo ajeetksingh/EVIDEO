@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party
+END
+linux-compile
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/linux-compile
+END
+mac-compile
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/mac-compile
+END
+wget.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/wget.java
+END
+download-sources
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/download-sources
+END
+win32-compile
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/win32-compile
+END
+ports-compile
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/ports-compile
+END
+clean-up
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/clean-up
+END
+sources.conf.patch
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/sources.conf.patch
+END
+utilx
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/utilx
+END
+menu3p
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/menu3p
+END
+do-all
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/do-all
+END
+do-all-win32
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/do-all-win32
+END
+check-prereq
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/check-prereq
+END
+3rd_party.gif
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/3rd_party.gif
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/10310/MH/tags/1.1.0/docs/scripts/3rd_party/README.txt
+END

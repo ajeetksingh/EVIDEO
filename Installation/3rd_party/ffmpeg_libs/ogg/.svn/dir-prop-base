@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 85
+libogg-*.tar.gz
+libogg-*.tgz
+libogg-*.tar.bz2
+libogg-*.tbz
+libogg-*.tb2
+libogg-*.zip
+
+END
