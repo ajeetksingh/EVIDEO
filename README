@@ -1,0 +1,20 @@
+Welcome to the EVIDEO
+
+
+1. Installation of Matterhorn on the Server
+	a. Download the Installation folder onto the System.
+	b. Follow the instructions provided in the README file.
+				OR
+	a. Follow the steps at "http://www.opencast.org/matterhorn/"
+
+2. After Successful Installation of Matterhorn, perform the following steps.
+	
+	a. Download the "evideo-modules".
+	b. Copy "matterhorn-runtime-info-ui" to "/opt/matterhorn/1.x/modules/".
+	c. Copy "matterhorn-engage-ui" to "/opt/matterhorn/1.x/modules/".
+	d. Clean and build the above modules using "mvn clean install -DdeployTo=/opt/matterhorn/felix/matterhorn"
+
+3. Download the "playlist-module" and copy the folder "play" to "/var/www/html/" i.e. HTTPD Server
+4. Download the "php-files" and copy all the files to "/var/www/html/" i.e. HTTPD Server
+
+5. Then Run the Project as "http://localhost:80" 
